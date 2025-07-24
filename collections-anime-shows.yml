@@ -1,0 +1,163 @@
+
+
+#######################
+##     Templates     ##
+#######################
+templates:
+  Genre:
+    plex_search:
+      any:
+        genre: <<genre>>
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+    sort_title: <<collection_name>>
+    collection_order: alpha
+    collection_mode: hide
+    sync_mode: sync
+
+###########################
+#    Genre Collections    #
+###########################
+  Action:
+    template: {name: Genre, genre: Action, poster: 213642}
+  Adventure:
+    template: {name: Genre, genre: Adventure, poster: 213632}
+  Animals:
+    template: {name: Genre, genre: Animals, poster: }
+  Anti-Hero:
+    template: {name: Genre, genre: Anti-Hero, poster: }
+  Boys' Love:
+    template: {name: Genre, genre: Boys' Love, poster: 240145}
+  Comedy:
+    template: {name: Genre, genre: Comedy, poster: 213629}
+  Crossdressing:
+    template: {name: Genre, genre: Crossdressing, poster: 240852}
+  Cute Girls Doing Cute Things:
+    template: {name: Genre, genre: Cute Girls Doing Cute Things, poster: 240146}
+  Death Game:
+    template: {name: Genre, genre: Death Game, poster: }
+  Delinquents:
+    template: {name: Genre, genre: Delinquents, poster: 240148}
+  Detective:
+    template: {name: Genre, genre: Detective, poster: 240150}
+  Drama:
+    template: {name: Genre, genre: Drama, poster: 213630}
+  Ecchi:
+    template: {name: Genre, genre: Ecchi, poster: 240150}
+  Fantasy:
+    template: {name: Genre, genre: Fantasy, poster: 213631}
+  Harem:
+    template: {name: Genre, genre: Female Harem, poster: 240848}
+  Female Protagonist:
+    template: {name: Genre, genre: Female Protagonist, poster: }
+  Food:
+    template: {name: Genre, genre: Food, poster: }
+  Gender Bending:
+    template: {name: Genre, genre: Gender Bending, poster: }
+  Gore:
+    template: {name: Genre, genre: Gore, poster: 240153}
+  Historical:
+    template: {name: Genre, genre: Historical, poster: 213640}
+  Horror:
+    template: {name: Genre, genre: Horror, poster: 240855}
+  Idols:
+    template: {name: Genre, genre: Idol, poster: 240856}
+  Isekai:
+    template: {name: Genre, genre: Isekai, poster: 240156}
+  Iyashikei:
+    template: {name: Genre, genre: Iyashikei, poster: 240157}
+  Josei:
+    template: {name: Genre, genre: Josei, poster: 240858}
+  Love Triangle:
+    template: {name: Genre, genre: Love Triangle, poster: }
+  Magical Girl:
+    template: {name: Genre, genre: Mahou Shoujo, poster: }
+  Reverse Harem:
+    template: {name: Genre, genre: Male Harem, poster: 627832}
+  Martial Arts:
+    template: {name: Genre, genre: Martial Arts, poster: 213628}
+  Mecha:
+    template: {name: Genre, genre: Mecha, poster: 213668}
+  Medicine:
+    template: {name: Genre, genre: Medicine, poster: }
+  Military:
+    template: {name: Genre, genre: Military, poster: 240160}
+  Music:
+    template: {name: Genre, genre: Music, poster: 213639}
+  Mystery:
+    template: {name: Genre, genre: Mystery, poster: 240863}
+  Mythology:
+    template: {name: Genre, genre: Mythology, poster: 240161}
+  Otaku Culture:
+    template: {name: Genre, genre: Otaku Culture, poster: 240868}
+  Parenthood:
+    template: {name: Genre, genre: Parenthood, poster: }
+  Parody:
+    template: {name: Genre, genre: Parody, poster: 240193}
+  Post-Apocalyptic:
+    template: {name: Genre, genre: Post-Apocalyptic, poster: }
+  Adult Cast:
+    template: {name: Genre, genre: Primarily Adult Cast, poster: 240849}
+  Psychological:
+    template: {name: Genre, genre: Psychological, poster: 240212}
+  Reincarnation:
+    template: {name: Genre, genre: Reincarnation, poster: 240867}
+  Romance:
+    template: {name: Genre, genre: Romance, poster: 213637}
+  Samurai:
+    template: {name: Genre, genre: Samurai, poster: 213669}
+  Sci-Fi:
+    template: {name: Genre, genre: Sci-Fi, poster: 213635}
+  Seinen:
+    template: {name: Genre, genre: Seinen, poster: 240866}
+  Shoujo:
+    template: {name: Genre, genre: Shoujo, poster: 240214}
+  Shounen:
+    template: {name: Genre, genre: Shounen, poster: 240215}
+  Slapstick:
+    template: {name: Genre, genre: Slapstick, poster: }
+  Slice Of Life:
+    template: {name: Genre, genre: Slice Of Life, poster: 213663}
+  Space:
+    template: {name: Genre, genre: Space, poster: 213661}
+  Sports:
+    template: {name: Genre, genre: Sports, poster: 213634}
+  Super Power:
+    template: {name: Genre, genre: Super Power, poster: 213659}
+  Supernatural:
+    template: {name: Genre, genre: Supernatural, poster: 213670}
+  Survival:
+    template: {name: Genre, genre: Survival, poster: 391739}
+  Thriller:
+    template: {name: Genre, genre: Thriller, poster: }
+  Urban Fantasy:
+    template: {name: Genre, genre: Urban Fantasy, poster: }
+  Vampire:
+    template: {name: Genre, genre: Vampire, poster: 213671}
+  Video Game:
+    template: {name: Genre, genre: Video Games, poster: 213657}
+  Villainess:
+    template: {name: Genre, genre: Villainess, poster: }
+  Work:
+    template: {name: Genre, genre: Work, poster: }
+  Yuri:
+    template: {name: Genre, genre: Yuri, poster: }
+  Anthropomorphic:
+    template: {name: Genre, genre: "Anthropomorphism,Kemonomimi", poster: 240850}
+  School:
+    template: {name: Genre, genre: "School,School Club", poster: 627834}
+  Time Travel:
+    template: {name: Genre, genre: "Time Loop,Time Manipulation", poster: 627839}
+  Robot / Cyborg / AI:
+    template: {name: Genre, genre: "Robots,Cyborg,Artificial Intelligence", poster: }
+  Organized Crime:
+    template: {name: Genre, genre: "Criminal Organization,Gangs,Mafia,Yakuza", poster: 240865}
+
+
+
+
+
+
+
+
+
+
