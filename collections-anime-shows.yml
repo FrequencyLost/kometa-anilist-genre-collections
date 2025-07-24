@@ -5,6 +5,7 @@
 #######################
 templates:
   Genre:
+    ignore_blank_results: true
     plex_search:
       any:
         genre: <<genre>>
@@ -147,10 +148,11 @@ templates:
     template: {name: Genre, genre: "School,School Club", poster: 627834}
   Time Travel:
     template: {name: Genre, genre: "Time Loop,Time Manipulation", poster: 627839}
-  Robot / Cyborg / AI:
+  Robots / Cyborgs / AI:
     template: {name: Genre, genre: "Robots,Cyborg,Artificial Intelligence", poster: }
   Organized Crime:
-    template: {name: Genre, genre: "Criminal Organization,Gangs,Mafia,Yakuza", poster: 240865}
+    template: {name: Genre, genre: "Criminal Organization,Gangs,Mafia,Yakuza,Triads", poster: 240865}
+
 
 
 
