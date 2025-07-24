@@ -1,4 +1,4 @@
-WIP
+WIP.
 Kludged together a Kometa anime genre collections config that uses Plex builder for genres already in Plex, rather than via MAL builder.
 This is used in conjuction with Romaji-Renamer https://github.com/Arial-Z/Romaji-Renamer
 which pulls genres/tags from Anilist rather than MAL, and populates a metadata file that Kometa uses to update Plex.
