@@ -18,15 +18,16 @@ templates:
 ###########################
 #    Genre Collections    #
 ###########################
+
   Action:
     template: {name: Genre, genre: Action, poster: 213642}
   Adventure:
     template: {name: Genre, genre: Adventure, poster: 213632}
-  Animals:
-    template: {name: Genre, genre: Animals, poster: }
+#  Animals:
+#    template: {name: Genre, genre: Animals, poster: }
   Anti-Hero:
-    template: {name: Genre, genre: Anti-Hero, poster: }
-  Boys' Love:
+    template: {name: Genre, genre: Anti-Hero, poster: 628347}
+  Boys Love:
     template: {name: Genre, genre: Boys' Love, poster: 240145}
   Comedy:
     template: {name: Genre, genre: Comedy, poster: 213629}
@@ -35,25 +36,25 @@ templates:
   Cute Girls Doing Cute Things:
     template: {name: Genre, genre: Cute Girls Doing Cute Things, poster: 240146}
   Death Game:
-    template: {name: Genre, genre: Death Game, poster: }
+    template: {name: Genre, genre: Death Game, poster: 628349}
   Delinquents:
     template: {name: Genre, genre: Delinquents, poster: 240148}
   Detective:
-    template: {name: Genre, genre: Detective, poster: 240150}
+    template: {name: Genre, genre: Detective, poster: 240149}
   Drama:
     template: {name: Genre, genre: Drama, poster: 213630}
   Ecchi:
-    template: {name: Genre, genre: Ecchi, poster: 240150}
+    template: {name: Genre, genre: Ecchi, poster: 240872}
   Fantasy:
     template: {name: Genre, genre: Fantasy, poster: 213631}
   Harem:
     template: {name: Genre, genre: Female Harem, poster: 240848}
   Female Protagonist:
-    template: {name: Genre, genre: Female Protagonist, poster: }
+    template: {name: Genre, genre: Female Protagonist, poster: 628422}
   Food:
-    template: {name: Genre, genre: Food, poster: }
+    template: {name: Genre, genre: Food, poster: 628421}
   Gender Bending:
-    template: {name: Genre, genre: Gender Bending, poster: }
+    template: {name: Genre, genre: Gender Bending, poster: 628409}
   Gore:
     template: {name: Genre, genre: Gore, poster: 240153}
   Historical:
@@ -61,7 +62,7 @@ templates:
   Horror:
     template: {name: Genre, genre: Horror, poster: 240855}
   Idols:
-    template: {name: Genre, genre: Idol, poster: 240856}
+    template: {name: Genre, genre: Idol, poster: 628417}
   Isekai:
     template: {name: Genre, genre: Isekai, poster: 240156}
   Iyashikei:
@@ -69,9 +70,9 @@ templates:
   Josei:
     template: {name: Genre, genre: Josei, poster: 240858}
   Love Triangle:
-    template: {name: Genre, genre: Love Triangle, poster: }
+    template: {name: Genre, genre: Love Triangle, poster: 628760}
   Magical Girl:
-    template: {name: Genre, genre: Mahou Shoujo, poster: }
+    template: {name: Genre, genre: Mahou Shoujo, poster: 628767}
   Reverse Harem:
     template: {name: Genre, genre: Male Harem, poster: 627832}
   Martial Arts:
@@ -79,7 +80,7 @@ templates:
   Mecha:
     template: {name: Genre, genre: Mecha, poster: 213668}
   Medicine:
-    template: {name: Genre, genre: Medicine, poster: }
+    template: {name: Genre, genre: Medicine, poster: 628776}
   Military:
     template: {name: Genre, genre: Military, poster: 240160}
   Music:
@@ -91,11 +92,11 @@ templates:
   Otaku Culture:
     template: {name: Genre, genre: Otaku Culture, poster: 240868}
   Parenthood:
-    template: {name: Genre, genre: Parenthood, poster: }
+    template: {name: Genre, genre: Parenthood, poster: 628834}
   Parody:
     template: {name: Genre, genre: Parody, poster: 240193}
   Post-Apocalyptic:
-    template: {name: Genre, genre: Post-Apocalyptic, poster: }
+    template: {name: Genre, genre: Post-Apocalyptic, poster: 628788}
   Adult Cast:
     template: {name: Genre, genre: Primarily Adult Cast, poster: 240849}
   Psychological:
@@ -107,17 +108,17 @@ templates:
   Samurai:
     template: {name: Genre, genre: Samurai, poster: 213669}
   Sci-Fi:
-    template: {name: Genre, genre: Sci-Fi, poster: 213635}
+    template: {name: Genre, genre: Sci-Fi, poster: 628746}
   Seinen:
     template: {name: Genre, genre: Seinen, poster: 240866}
   Shoujo:
     template: {name: Genre, genre: Shoujo, poster: 240214}
   Shounen:
     template: {name: Genre, genre: Shounen, poster: 240215}
-  Slapstick:
-    template: {name: Genre, genre: Slapstick, poster: }
-  Slice Of Life:
-    template: {name: Genre, genre: Slice Of Life, poster: 213663}
+  Gag Humour:
+    template: {name: Genre, genre: Slapstick, poster: 240151}
+  Slice of Life:
+    template: {name: Genre, genre: Slice of Life, poster: 628401}
   Space:
     template: {name: Genre, genre: Space, poster: 213661}
   Sports:
@@ -129,37 +130,26 @@ templates:
   Survival:
     template: {name: Genre, genre: Survival, poster: 391739}
   Thriller:
-    template: {name: Genre, genre: Thriller, poster: }
+    template: {name: Genre, genre: Thriller, poster: 628756}
   Urban Fantasy:
-    template: {name: Genre, genre: Urban Fantasy, poster: }
+    template: {name: Genre, genre: Urban Fantasy, poster: 628216}
   Vampire:
     template: {name: Genre, genre: Vampire, poster: 213671}
   Video Game:
     template: {name: Genre, genre: Video Games, poster: 213657}
   Villainess:
-    template: {name: Genre, genre: Villainess, poster: }
+    template: {name: Genre, genre: Villainess, poster: 628219}
   Work:
-    template: {name: Genre, genre: Work, poster: }
-  Yuri:
-    template: {name: Genre, genre: Yuri, poster: }
+    template: {name: Genre, genre: Work, poster: 628650}
+  Girls Love:
+    template: {name: Genre, genre: Yuri, poster: 240152}
   Anthropomorphic:
     template: {name: Genre, genre: "Anthropomorphism,Kemonomimi", poster: 240850}
   School:
     template: {name: Genre, genre: "School,School Club", poster: 627834}
   Time Travel:
     template: {name: Genre, genre: "Time Loop,Time Manipulation", poster: 627839}
-  Robots / Cyborgs / AI:
-    template: {name: Genre, genre: "Robots,Cyborg,Artificial Intelligence", poster: }
+  Robot / Cyborg / AI:
+    template: {name: Genre, genre: "Robots,Cyborg,Artificial Intelligence", poster: 628741}
   Organized Crime:
     template: {name: Genre, genre: "Criminal Organization,Gangs,Mafia,Yakuza,Triads", poster: 240865}
-
-
-
-
-
-
-
-
-
-
-
